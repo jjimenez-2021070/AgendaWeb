@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalles del contacto</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="style-detalles.css">
+  <!-- Icono -->
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/4052/4052345.png">
+  <!-- Boostrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- Nav var -->
+  <nav class="navbar">
+    <nav class="navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Detalles del contacto</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Agenda Web</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="Perfil.html">Perfil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contactos.html">Contactos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="NuevoContacto.html">Crear nuevo contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="DetalleContacto.html">Detalles del contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Favoritos.html">Favoritos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ToDo-List.html">Tareas pendientes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Login</a>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </nav>
+  </nav>
+
+  <hr>
+
+
+  <div class="separador">
+    <div class="container">
+      <div class="row flex-lg-nowrap">
+        <div class="col-12 col-lg-auto mb-3" style="width: 200px;">
+        </div>
+        <div class="col">
+          <div class="row">
+            <div class="col mb-3">
+              <div class="card">
+                <div class="card-body">
+                  <div class="e-profile">
+                    <div class="row">
+                      <div class="col-12 col-sm-auto mb-3">
+                        <div class="mx-auto" style="width: 140px;">
+                          <div class="d-flex justify-content-center align-items-center rounded"
+                            style="height: 140px; background-color: rgb(233, 236, 239);">
+                            <span style="color: rgb(166, 168, 170); font: bold 8pt Arial;">140x140</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col d-flex flex-column flex-sm-row justify-content-between mb-3">
+                        <div class="text-center text-sm-left mb-2 mb-sm-0">
+                          <h4 class="pt-sm-2 pb-1 mb-0 text-nowrap">Username</h4>
+                          <div class="text-muted"><small>Visto por última vez hace 2 horas</small></div>
+                          <div class="mt-2">
+                            <button class="btn btn-primary" type="button">
+                              <i class="fa fa-fw fa-camera"></i>
+                              <span>Cargar Foto</span>
+                            </button>
+                          </div>
+                        </div>
+                        <div class="text-center text-sm-right">
+                          <span class="badge badge-secondary">administrator</span>
+                          <div class="text-muted"><small>Añadido hace 3 años</small></div>
+                        </div>
+                      </div>
+                    </div>
+                    <ul class="nav nav-tabs">
+                      <li class="nav-item"><a href="" class="active nav-link">Configuración</a></li>
+                    </ul>
+                    <div class="tab-content pt-3">
+                      <div class="tab-pane active">
+                        <form class="form" novalidate="">
+                          <div class="row">
+                            <div class="col">
+                              <div class="row">
+                                <div class="col">
+                                  <div class="form-group">
+                                    <label>Nombre Completo</label>
+                                    <input class="form-control" type="text" name="name">
+                                  </div>
+                                </div>
+                                <div class="col">
+                                  <div class="form-group">
+                                    <label>Username</label>
+                                    <input class="form-control" type="text" name="username" ">
+                            </div>
+                          </div>
+                        </div>
+                        <div class=" row">
+                                    <div class="col">
+                                      <div class="form-group">
+                                        <label>Correo Electronico</label>
+                                        <input class="form-control" type="text">
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="col mb-3">
+                                      <div class="form-group">
+                                        <label>Descripción</label>
+                                        <textarea class="form-control" rows="5"></textarea>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="row">
+                                <div class="col d-flex justify-content-end">
+                                  <button class="btn btn-primary" type="submit"><a class="save"
+                                      href="Contactos.html">Guardar Cambios</a></button>
+                                </div>
+                              </div>
+                        </form>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-3 mb-3">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

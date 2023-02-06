@@ -1,0 +1,66 @@
+body{
+    margin-top:20px;
+    
+    background: #f6f9fc;
+    background: #a8ff6b; 
+    background: -webkit-linear-gradient(to right, #31ca9a, #81d045, #15e0a6);
+    background: linear-gradient(to right, #0fbcb1, #87ee9a, #88f9b9);
+}
+
+.navbar{
+    background: #532a76;
+    background: -webkit-linear-gradient(to right, #9060ca, #9657d1, #8953c0);
+    background: linear-gradient(to right, #8c3dcd, #66339f, #7c56bd);
+    
+}
+
+.separacion{
+    margin-top:100px;
+}
+
+.account-block {
+    padding: 0;
+    background-image: url(https://bootdey.com/img/Content/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
+.account-block .overlay {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.account-block .account-testimonial {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    margin: 0 auto;
+    padding: 0 1.75rem;
+    bottom: 3rem;
+    left: 0;
+    right: 0;
+}
+
+.text-theme {
+    color: #5369f8 !important;
+}
+
+.btn-theme {
+    background-color: #5369f8;
+    border-color: #5369f8;
+    color: #fff;
+}
+
+.imagen{
+    left: 300;
+    top: 300;
+    width: 600;
+    height: 600;
+}
